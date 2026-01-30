@@ -1,3 +1,7 @@
+                    current_splitter = {
+                        node: splitters[splitter_id],
+                        index: current_splitter_index
+                    };
 /*!
  * jQuery Spliter Plugin version 0.29.1
  * Copyright (C) 2010-2020 Jakub T. Jankiewicz <https://jcubic.pl/me>
@@ -299,7 +303,7 @@
                 self.trigger('splitter.resize');
                 self.find('.splitter_panel').trigger('splitter.resize');
                 splitters[id] = null;
-                count--;
+
                 $splitters.forEach(function($splitter) {
                     var splitter = $(this);
                     $splitter.off('mouseenter');
