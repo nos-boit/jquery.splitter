@@ -1,7 +1,3 @@
-                    current_splitter = {
-                        node: splitters[splitter_id],
-                        index: current_splitter_index
-                    };
 /*!
  * jQuery Spliter Plugin version 0.29.1
  * Copyright (C) 2010-2020 Jakub T. Jankiewicz <https://jcubic.pl/me>
